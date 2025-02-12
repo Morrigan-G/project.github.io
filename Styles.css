@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  background-color: rgb(208, 175, 240);
+  color: #57128f;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Tinos", serif;
+
+}
+
+a{
+    color: rgb(196, 69, 107);
+    text-decoration: none;
+}
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ a:active {
+    color: aquamarine;
+ }
+ 
+
+
+.picture{
+    width: 300px;
+    border-radius: 42px;
+    box-shadow: 11px 4px 20px 5px rgba(0, 0, 0, 25);
+}
+
+.info p{
+    background-color: rgb(161, 202, 226);
+    padding: 10px;
+    border-style: double;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    color:rgb(228, 40, 212);
+    text-decoration: none;
+    /*text-transform: capitalize;*/
+    /*letter-spacing: 2px;*/
+    /*word-spacing: 26px;*/
+}
+
+/*Box model*/
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+.cont{
+    background: rgb(161, 202, 226);
+    /* padding: 15px; */
+    padding: 5px 60px;
+    color: rgb(228, 40, 212);
+    border: 5px dashed rgb(96, 13, 204);
+    border-radius: 20px;
+    /* border-top-style: dashed;
+    border-left-style: inset;
+    border-bottom-style: dotted;
+    border-right-style:double; */
+    margin: 50px;
+}
+.kalambur{
+    margin: 0px 230px;
+}
+.box-model >div {
+    float: left;
+    background:black;
+    height: auto;
+    width: auto;
+    border: 2px solid rgb(93, 248, 222);
+    box-sizing:border-box;
+}
+.music {
+    
+}
